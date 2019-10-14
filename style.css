@@ -1,3 +1,4 @@
+/* general styling */
 * {
     margin: 0;
     padding: 0;
@@ -10,4 +11,60 @@ body {
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
+}
+
+.principal {
+    width: 70%;
+    margin: 30px auto;
+    height: 100%;
+}
+/* end styling general */
+
+
+/* styling header */
+.principal header {
+    background-color: white;
+    height: 30vh;
+}
+/* end styling header */
+
+
+/* styling main */
+main {
+    margin: 30px auto;
+}
+
+.aside_first {
+    float: left;
+    background-color: white;
+    width: 25%;
+    height: 40vh;
+}
+
+.central {
+    background-color: white;
+    width: 40%;
+    height: 40vh;
+    margin: auto;
+}
+
+.aside_second {
+    float: right;
+    background-color: white;
+    width: 25%;
+    height: 90vh;
+}
+
+main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* end styling main */
+
+/* styling footer */
+footer {
+    background-color: white;
+    height: 20vh;
+    margin: 30px auto;
 }
