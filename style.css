@@ -97,6 +97,7 @@ main {
     width: 25%;
     height: 40%;
     padding: 5px;
+    border-radius: 5px;
 }
 
 .aside_first i {
@@ -134,8 +135,20 @@ main {
 .central {
     background-color: white;
     width: 40%;
-    height: 40vh;
+    height: 40%;
     margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.central p {
+    margin: 20px 10px;
+}
+
+.central h1 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 10px;
 }
 
 .aside_second {
@@ -159,6 +172,7 @@ footer {
     background-color: white;
     height: 20vh;
     margin: 30px auto;
+    border-radius: 5px;
 }
 
 #footer_top {
