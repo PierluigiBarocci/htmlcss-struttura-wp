@@ -95,8 +95,41 @@ main {
     float: left;
     background-color: white;
     width: 25%;
-    height: 40vh;
+    height: 40%;
+    padding: 5px;
 }
+
+.aside_first i {
+    float: left;
+    color: orange;
+    font-size: 20px;
+}
+ .aside_first div {
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.aside_first h1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.aside_first ul {
+    margin-top: 10px;
+}
+
+.aside_first ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.aside_first ul li a{
+    color: rgb(0, 88, 27);
+}
+
 
 .central {
     background-color: white;
