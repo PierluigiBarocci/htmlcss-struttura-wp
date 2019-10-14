@@ -151,11 +151,30 @@ main {
     margin: 10px;
 }
 
+
 .aside_second {
     float: right;
-    background-color: white;
+    /* background-color: white; */
     width: 25%;
-    height: 90vh;
+    height: 100%;
+}
+
+.aside_second div {
+    border: 1px solid black;
+    background-color: white;
+    height: 40%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.widget h1{
+    font-size: 16px;
+    margin: 10px;
+}
+
+.widget p {
+    margin: 20px 10px;
 }
 
 main:after {
