@@ -84,6 +84,8 @@ body {
 /* end styling header */
 
 
+
+
 /* styling main */
 main {
     margin: 30px auto;
@@ -117,9 +119,56 @@ main:after {
 }
 /* end styling main */
 
+
+
 /* styling footer */
 footer {
     background-color: white;
     height: 20vh;
     margin: 30px auto;
+}
+
+#footer_top {
+    height: 10%;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    position: relative;
+}
+
+#footer_top div {
+    color: rgb(51, 51, 51);
+    font-style: oblique;
+    font-size: 10px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#footer_bottom {
+    height: 90%;
+    width: 100%;
+    position: relative;
+}
+
+#footer_bottom a{
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#primo_soc  {
+    left: 20%;
+}
+#secondo_soc  {
+    left: 50%;
+}
+#terzo_soc {
+    left: 80%;
 }
